@@ -1,0 +1,20 @@
+.td__btn--edit,
+.td__btn--delete{
+  height: 2rem;
+  width: 4rem;
+  margin: 0 5px;
+  background: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.td__btn--edit:hover {
+  background-color: var( --green );
+}
+
+.td__btn--delete:hover {
+  background-color: var( --red );
+}
+
